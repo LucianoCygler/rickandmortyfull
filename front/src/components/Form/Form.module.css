@@ -1,0 +1,6 @@
+form{
+    color: white;
+}
+input::placeholder{
+    color: black;
+}

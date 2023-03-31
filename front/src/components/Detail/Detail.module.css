@@ -1,0 +1,74 @@
+.contenedor{
+    background-image: url("C:/Users/Luciano/Desktop/rick_and_morty/front/assets/detalle.png");
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    width:70%;
+    padding-bottom:10em;
+    margin-top:2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.titulogrande{
+    margin-left: auto;
+    margin-top:4em;
+    color:white;
+    font-size: 50px;
+}
+.titulo{
+    margin-left: 0.5em;
+    color:white;
+    font-size: 30px;
+    
+}
+
+.boton{
+    position: relative;
+        background-color: #EA4C89;
+        border: 0px;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 0px 3px 2px rgba(255, 0, 212, 0.486);
+        height: 40px;
+        border-style: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 10px 16px;
+        text-decoration: none;
+        touch-action: manipulation;
+        box-shadow: 0px 0px 3px 2px rgb(0, 0, 0);
+        top:-90px;
+}
+.boton:hover {
+    background-color: #F082AC;
+    box-shadow: 0px 0px 3px 2px rgb(255, 255, 255); 
+  
+  }
+
+  .contenedor img{
+    
+    max-width: 100%;
+    max-height: 100%;
+    margin-top:20em;
+    margin-left:5em;
+    border:2px solid #C0C0C0;
+    border-radius: 200px;
+    margin-right: 6em;
+  }
+
+  
+  .loading{
+    text-align: center;
+    
+
+    color: #fff;
+  }
